@@ -1,0 +1,51 @@
+-- MySQL dump 10.13  Distrib 8.0.33, for Win64 (x86_64)
+--
+-- Host: localhost    Database: trellodb
+-- ------------------------------------------------------
+-- Server version	8.0.33
+
+/*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
+/*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
+/*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
+/*!50503 SET NAMES utf8 */;
+/*!40103 SET @OLD_TIME_ZONE=@@TIME_ZONE */;
+/*!40103 SET TIME_ZONE='+00:00' */;
+/*!40014 SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0 */;
+/*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;
+/*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;
+/*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
+
+--
+-- Table structure for table `rooms`
+--
+
+DROP TABLE IF EXISTS `rooms`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!50503 SET character_set_client = utf8mb4 */;
+CREATE TABLE `rooms` (
+  `room_id` int NOT NULL AUTO_INCREMENT,
+  `room_name` varchar(50) DEFAULT NULL,
+  PRIMARY KEY (`room_id`)
+) ENGINE=InnoDB AUTO_INCREMENT=44 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `rooms`
+--
+
+LOCK TABLES `rooms` WRITE;
+/*!40000 ALTER TABLE `rooms` DISABLE KEYS */;
+INSERT INTO `rooms` VALUES (1,'2HIrE6EJnLS2Sw_LbZWyc-fe5b2169cd'),(4,'702d840b48-fe5b2169cd'),(5,'702d840b48-0df512332e'),(8,'66af630a8e-fe5b2169cd'),(9,'da2e7eadb7-fe5b2169cd'),(10,'7ec4d1302c-fe5b2169cd'),(11,'e518ba61ce-fe5b2169cd'),(12,'a78482c8f6-fe5b2169cd'),(13,'628230e47d-fe5b2169cd'),(14,'7bb5a74a5b-fe5b2169cd'),(15,'fe5b2169cd-fe5b2169cd'),(16,'fe5b2169cd-iMOCHulum7IvCVlH8o8c6'),(17,'dBvX4SUq0S2a0FOhOr03z-fe5b2169cd'),(18,'0ad955c851-fe5b2169cd'),(19,'6e10d033ff-fe5b2169cd'),(20,'2aab0ca95c-fe5b2169cd'),(21,'879d1b0fe8-fe5b2169cd'),(22,'a56b73488b-fe5b2169cd'),(23,'4563f741b5-fe5b2169cd'),(24,'95d070bd72-fe5b2169cd'),(28,'b1b0a38ad4-fe5b2169cd'),(37,'f8accc9685-fe5b2169cd'),(38,'f02191e84b'),(39,'702d840b48'),(40,'702d840b48-fe5b2169cd-fe5b2169cd'),(41,'702d840b48-fe5b2169cd-fe5b2169cd-fe5b2169cd'),(42,'823867eee8-fe5b2169cd'),(43,'3f8d751c8f-fe5b2169cd');
+/*!40000 ALTER TABLE `rooms` ENABLE KEYS */;
+UNLOCK TABLES;
+/*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
+
+/*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
+/*!40014 SET FOREIGN_KEY_CHECKS=@OLD_FOREIGN_KEY_CHECKS */;
+/*!40014 SET UNIQUE_CHECKS=@OLD_UNIQUE_CHECKS */;
+/*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
+/*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
+/*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
+/*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
+
+-- Dump completed on 2023-08-16  9:01:31
